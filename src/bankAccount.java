@@ -24,6 +24,8 @@ public class bankAccount {
         System.out.println("Client Name: " + clientName);
         System.out.println("Current Balance: " + balance);
 
+        System.out.print("Hello " + clientName + " welcome in our bank, your balance " + balance + " is now available");
+
         scanner.close();
     }
 }
